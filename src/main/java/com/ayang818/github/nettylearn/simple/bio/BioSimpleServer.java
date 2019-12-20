@@ -1,4 +1,4 @@
-package com.ayang818.github.nettylearn.simple;
+package com.ayang818.github.nettylearn.simple.bio;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -16,10 +16,7 @@ import java.util.Set;
  * @description TODO
  * @date 2019/12/19 18:21
  **/
-public class BufferSimple {
-    Selector selector;
-    Channel channel;
-
+public class BioSimpleServer {
     public static void main(String[] args) throws IOException {
         new Thread(new ReactorTask(1080), "NIO-Server-001").start();
     }
@@ -50,6 +47,7 @@ class ReactorTask implements Runnable {
     }
 
 
+    @Override
     public void run() {
         while (!stop) {
             try {
