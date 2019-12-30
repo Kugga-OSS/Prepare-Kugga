@@ -1,4 +1,4 @@
-package com.ayang818.github.nettylearn.niopool;
+package com.ayang818.kugga.prepare.niopool;
 
 import java.util.concurrent.*;
 
@@ -12,7 +12,7 @@ public class HandlerExecutePool {
 
     public HandlerExecutePool(Integer corePoolSize, Integer maxPoolSize) {
         threadPoolExecutor = new ThreadPoolExecutor(corePoolSize, maxPoolSize, 60, TimeUnit.SECONDS,
-                new ArrayBlockingQueue<Runnable>(1000), new CustomizeThreadFactory());
+                new ArrayBlockingQueue<>(1000), new CustomizeThreadFactory());
     }
 
     public void execute(Runnable task) {

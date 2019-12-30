@@ -4,7 +4,7 @@
 1. OAuth中心
 2. 消息处理中心
 3. 文件储存(图片，视频，gif，常规文件)
-4. 将Kugga.server部署为Kugga的一组微服务
+4. 搭建一套CI/CD系统(可能会使用Travis CI 或 Github Action)
 
 ## Kugga.app的基础功能
 1. 网关/权限

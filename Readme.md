@@ -4,7 +4,7 @@
 1. OAuth Center
 2. Message Processing Center(based on netty)
 3. File storage(images, videos, gif, normal-files)
-4. Use k8s to deploy it as a micro-service of kugga.
+4. Set up CI/CD Pipeline (Travis CI)
 
 ## Base features of Kugga.app
 1. Auth/Gateway

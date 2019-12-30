@@ -1,4 +1,4 @@
-package com.ayang818.github.nettylearn.simple.bio;
+package com.ayang818.kugga.prepare.simple.bio;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
