@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.ayang818.kugga</groupId>
-    <artifactId>prepare</artifactId>
+    <artifactId>prepare-kugga</artifactId>
     <version>1.0.0</version>
 
     <properties>
@@ -17,7 +17,7 @@
         <dependency>
             <groupId>io.netty</groupId>
             <artifactId>netty-all</artifactId>
-            <version>5.0.0.Alpha2</version>
+            <version>4.1.44.Final</version>
         </dependency>
 
         <dependency>
