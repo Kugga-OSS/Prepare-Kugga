@@ -30,7 +30,6 @@ public class HelloServer {
                     .option(ChannelOption.SO_BACKLOG, 1024)
                     .childHandler(new HelloServerInitializer());
 
-
             // 启动Server，设置端口号，设置启动方式为同步
             ChannelFuture channelFuture = serverBootstrap.bind(PORT).sync();
             LOGGER.info("Server is start at http://localhost:{}", PORT);
